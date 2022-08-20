@@ -1,0 +1,161 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Headings */
+.title-h {
+  font-size: 3.25rem;
+  line-height: 1.5;
+}
+
+.section-h {
+  line-height: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.color-sec {
+  background-color: #FF4C68;
+  color: #FFF;
+}
+
+.white-sec {
+  background-color: #FFF;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 3.5rem;
+  /* top left+right bottom */
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 2.5% 10% 5%;
+  text-align: left;
+}
+
+.download_btn {
+  margin: 5% 3% 5% 0;
+}
+
+.img-cont {
+  position: relative;
+}
+
+.title_img {
+  position: absolute;
+  right: 20%;
+  width: 40%;
+  transform: rotate(25deg);
+}
+
+@media (max-width: 1023px) {
+  #title .container-fluid{
+    text-align: center;
+  }
+
+  .title_img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Feature Section*/
+#features {
+  position: relative;
+}
+
+.f-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.75rem;
+}
+
+.f-icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.f-icon:hover {
+  color: #FF4C68;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #EF8172;
+}
+
+.test-desc {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.test-img {
+  margin: 1.25rem;
+  width: 15%;
+  border-radius: 100%;
+}
+
+/* Press Section */
+#press {
+  padding-bottom: 3.5%;
+  background-color: #EF8172;
+}
+
+.press-logo {
+  margin: 1.25rem 1.25rem 3.25rem;
+  width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 6rem;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to Action Section */
+/* Footer section */
+.footer-icon {
+  margin: 1.25rem;
+}
